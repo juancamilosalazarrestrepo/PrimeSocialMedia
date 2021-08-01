@@ -10,8 +10,16 @@
 }
 
 .tarjeta:hover {
+  background: linear-gradient(
+    to right,
+    hsla(144, 100%, 47%, 0.541),
+    hsla(210, 96%, 46%, 0.452)
+  );
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in;
+  position: relative;
   width: 27%;
-  background: aqua;
+  z-index: 1;
 }
 
 .tarjeta {
